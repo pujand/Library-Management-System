@@ -1,0 +1,28 @@
+Library Management System contains following two panel:
+1. Admin panel
+2. Member panel
+
+Admin panel contains following features:
+1. books can be added in book list
+2. new member can be registered
+3. check-in 
+4. check-out
+5. membership termination
+6. membership renewal 
+7. overdue calculation
+8. log in
+
+Member panel contains following feature:
+1. log in
+2. book listing
+
+Entities:
+1. user
+    a. type: member/admin
+    b. id, name, email-id, phone number, address, card number, registration date, number of books, expire date
+2. book
+    a. type: category 
+    b. id, book number, created date, updated date, deleted date, book name, author, publication, edition, ISBN, 
+3. borrow
+    a. book id, member id
+    b. issue date, return date, due on books
